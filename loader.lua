@@ -1,6 +1,6 @@
 repeat task.wait() until game:IsLoaded()
 
-local FlowAuthURL = "https://flowauth.net/v1/loaders/e03408752c9425f5ba65679949b34d56.lua"
+local FlowAuthURL = "loadstring(game:HttpGet("https://flowauth.net/v1/loaders/NEXUSHUB.lua"))()"
 
 local function CopyUnexpectedError(Error)
     local Raw = tostring(Error)
